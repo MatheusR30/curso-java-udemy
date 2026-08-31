@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estruturas condicionais e repeticoes</title>
+</head>
+<body>
+    <h1>Classificação de Lutadores</h1>
+    <script>
+
+        for(var i = 0 ; i < 9; i++){
+        let peso = parseFloat(prompt('Informe seu peso: '));
+
+        if (peso <= 56,7) {
+            alert('Você é peso MOSCA!')
+        }
+        if (peso >= 56,8 && peso <= 61,2) {
+            alert('Você é peso GALO!')
+        } 
+        if (peso >= 61,3 && peso <= 65,7) {
+            alert('Você é peso PENA!')
+        }
+        if (peso >= 65,8 && peso <= 70,3) {
+            alert('Você é peso LEVE!')
+        }
+        if (peso >= 70,4 && peso <= 77,1) {
+            alert('Você é peso MEIO MEDIO!')
+        }
+        if (peso >= 77,2 && peso <= 84,3) {
+            alert('Você é peso MEDIO!')
+        }
+        if (peso >= 84,4 && peso <= 92,9) {
+            alert('Você é peso MEIO PESADO')
+        }
+        if (peso >= 93 && peso <= 120,2) {
+            alert('Você é peso PESADO!')
+        }
+        else {
+            alert('Seu PESO NAO É ACEITO!')
+        }
+        console.log('No valor '+ i + ' foi informado o peso ' + peso + ' Kg');
+        }
+    </script>
+    
+</body>
+</html>
